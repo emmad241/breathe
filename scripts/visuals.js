@@ -39,5 +39,8 @@ leftArrow.addEventListener("click", function () {
         leftArrow.style.display="none";
         rightArrow.style.display="block";
     }
+    if(counter===videos.length-2){
+        rightArrow.style.display="block";
+    }
     title.innerHTML = titles[counter];
 });
