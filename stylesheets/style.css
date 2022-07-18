@@ -21,6 +21,13 @@ a{
     color:black;
 }
 
+.fa-arrow-left{
+    position:absolute;
+    top:2rem;
+    left: 3rem;
+    color: var(--main-outline-color);
+}
+
 .center__container{
     display:flex;
     flex-direction: column;
@@ -73,7 +80,7 @@ a{
     cursor:pointer;
 }
 
-.fa-solid{
+.fa-circle{
     position:absolute;
     top:0px;
     left: 0px;
