@@ -63,8 +63,9 @@ body {
 }
 
 .quote {
-	color: var(--main-outline-color);
+	color: black;
 	margin: 0;
+    font-size: 1.5rem;
 }
 
 .right {
