@@ -51,30 +51,30 @@ body {
     overflow: auto;
 }
 
-.quotes__container {
-	width: 90%;
-	padding: 0;
-	margin-top: 1rem;
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	border-radius: 4px;
-	text-align: left;
-}
-
-.quote {
-	color: var(--main-outline-color);
-	margin: 0;
-}
-
-.right {
-	justify-content: right;
-	text-align: right;
-}
-
 .fa-arrow-left {
 	position: absolute;
 	top: 3%;
 	left: 2.5%;
 	color: var(--main-outline-color);
+}
+
+.exercise__container{
+    width:100%;
+    display: flex;
+	justify-content: left;
+	align-items: center;
+    gap:5rem;
+}
+
+.right{
+    justify-content: right;
+}
+
+.exercise__description{
+    font-size: 1.5rem;
+}
+
+img{
+    width:20rem;
+    border-radius:4px;
 }

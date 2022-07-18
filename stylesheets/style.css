@@ -1,115 +1,125 @@
-:root{
-    --main-bg-color: #f9f9f9;
-    --main-outline-color: #2da7a2;
+:root {
+	--main-bg-color: #f9f9f9;
+	--main-outline-color: #2da7a2;
 }
 
-html{
-    height:100%;
+* {
+	box-sizing: border-box;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 
-body{
-    height:100%;
-    background: var(--main-bg-color);
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-family: 'Edu NSW ACT Foundation', cursive;
+*::-webkit-scrollbar {
+	display: none;
 }
 
-a{
-    text-decoration: none;
-    color:black;
+html {
+	height: 100%;
 }
 
-.fa-arrow-left{
-    position:absolute;
-    top:2rem;
-    left: 3rem;
-    color: var(--main-outline-color);
+body {
+	height: 100%;
+	background: var(--main-bg-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Edu NSW ACT Foundation", cursive;
 }
 
-.center__container{
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    height: 420px;
-    width: 500px;
-    text-align:center;
-    position:relative;
+a {
+	text-decoration: none;
+	color: black;
 }
 
-.center__row{
-    display:flex;
+.fa-arrow-left {
+	position: absolute;
+	top: 3%;
+	left: 2.5%;
+	color: var(--main-outline-color);
 }
 
-.button{
-    color: var(--main-outline-color);
-    background:var(--main-bg-color);
-    text-align: center;
-    width:10rem;
-    border:3px solid var(--main-outline-color);
-    transition-duration: .5s;
-    margin:.5rem;
-    cursor: pointer;
-    border-radius: 4px;
+.center__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 420px;
+	width: 500px;
+	text-align: center;
+	position: relative;
 }
 
-.button:hover{
-    background:var(--main-outline-color);
-    color:white;
+.center__row {
+	display: flex;
 }
 
-.button p{
-    font-weight:thin;
-    font-size:1.5rem;
+.button {
+	color: var(--main-outline-color);
+	background: var(--main-bg-color);
+	text-align: center;
+	width: 10rem;
+	border: 3px solid var(--main-outline-color);
+	transition-duration: 0.5s;
+	margin: 0.5rem;
+	cursor: pointer;
+	border-radius: 4px;
 }
 
-.circle{
-    position:absolute;
-    color:white;
-    height:20rem;
-    width:20rem;
-    font-size:2rem;
-    background:var(--main-outline-color);
-    border-radius:50%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    transition-duration:4s;
-    cursor:pointer;
+.button:hover {
+	background: var(--main-outline-color);
+	color: white;
 }
 
-.fa-circle{
-    position:absolute;
-    top:0px;
-    left: 0px;
+.button p {
+	font-weight: thin;
+	font-size: 1.5rem;
 }
 
-.one{
-    color: #94f4be;
+.circle {
+	position: absolute;
+	color: white;
+	height: 20rem;
+	width: 20rem;
+	font-size: 2rem;
+	background: var(--main-outline-color);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition-duration: 4s;
+	cursor: pointer;
 }
 
-.two{
-    color: 	#a6f6c9;
+.fa-circle {
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 
-.three{
-    color: #a6f6c9;
+.one {
+	color: #94f4be;
 }
 
-.four{
-    color: #b8f8d4
+.two {
+	color: #a6f6c9;
 }
 
-.five{
-    color: #b8f8d4;
+.three {
+	color: #a6f6c9;
 }
 
-.six{
-    color: #c9f9de;
+.four {
+	color: #b8f8d4;
 }
 
-.seven{
-    color: #c9f9dec2;
+.five {
+	color: #b8f8d4;
+}
+
+.six {
+	color: #c9f9de;
+}
+
+.seven {
+	color: #c9f9dec2;
 }
