@@ -6,11 +6,15 @@ let video = document.querySelector("iframe");
 let videos = [
     "https://www.youtube.com/embed/9BqNYzjc9-U",
 	"https://www.youtube.com/embed/3G4kCi_ldr8",
+    "https://www.youtube.com/embed/_ygU_fEZ1-s",
+    "https://www.youtube.com/embed/7KXGZAEWzn0",
 ];
 
 let titles = [
     "Turtles",
     "Sit around the fire",
+    "Jellyfish",
+    "Earth",
 ];
 
 let counter = 0;
