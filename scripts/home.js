@@ -8,22 +8,22 @@ const leafSeven = document.querySelector(".seven");
 
 function leafLoop(leaf){
     $(leaf).animate({
-        left: "+=490",
+        left: "+=110%",
     }, 4000, "linear", function() {
           console.log("right");
     });
     $(leaf).animate({
-        top: "+=418",
+        top: "+=110%",
     }, 4000, "linear", function() {
           console.log("down");
     });
     $(leaf).animate({
-        left: "-=490",
+        left: "-=110%",
     }, 4000, "linear", function() {
           console.log("left");
     });
     $(leaf).animate({
-        top: "-=418",
+        top: "-=110%",
     }, 4000, "linear", function() {
           console.log("up");
     });
